@@ -6,6 +6,6 @@ def generate_random_password(length=12):
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
 
-# Example usage:
 password = generate_random_password()
 print(f"Random Password: {password}")
+print("There is some change here!")
