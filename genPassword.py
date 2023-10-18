@@ -9,5 +9,4 @@ def generate_random_password(length=12):
 
 password = generate_random_password()
 print(f"Random Password: {password}")
-
-#Cloned project
+print("There is some change here!")
